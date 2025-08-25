@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>新商品登録（完了）</title>
+       </head>
+<body>
+    <h1>新商品登録（完了）</h1>
+    <div>
+        <p>商品名<span th:text = "${product.name}" ></span>を登録しました。</p>,
+    </div>
+
+    <div>
+         <button type="button" onclick="window.close()">業務終了</button>
+            <button type="button" onclick="window.location.href='admin/products'">商品検索へ戻る</button>
+            <button type="button" onclick="window.location.href='admin/product/input'">入力に戻る</button>
+    </div>
+</body>
+</html>

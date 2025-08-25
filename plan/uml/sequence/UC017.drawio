@@ -1,0 +1,168 @@
+<mxfile host="65bd71144e">
+    <diagram name="ページ1" id="q18_Z3Wsg8RgEzkWWvcn">
+        <mxGraphModel dx="864" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-1" value="DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="980" y="40" width="100" height="840" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-21" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="LmNLP-GIeK6npoBTMpNd-1" vertex="1">
+                    <mxGeometry x="45" y="250" width="10" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-2" value="AccountDetails" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="850" y="40" width="100" height="840" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="LmNLP-GIeK6npoBTMpNd-2" vertex="1">
+                    <mxGeometry x="40.25" y="400" width="10" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-25" value="new Account Details" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="LmNLP-GIeK6npoBTMpNd-2" target="LmNLP-GIeK6npoBTMpNd-24" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-230.25" y="405" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-26" value="AccountDetails" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="LmNLP-GIeK6npoBTMpNd-2" source="LmNLP-GIeK6npoBTMpNd-24" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-230.25" y="475" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-3" value="Account&lt;div&gt;Repository&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="710" y="40" width="100" height="840" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="LmNLP-GIeK6npoBTMpNd-3" vertex="1">
+                    <mxGeometry x="40" y="240" width="10" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-4" value="AccountDetails&lt;div&gt;Service&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="570" y="40" width="100" height="840" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="LmNLP-GIeK6npoBTMpNd-4" vertex="1">
+                    <mxGeometry x="40" y="210" width="10" height="310" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-5" value="SecurityConfig" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="410" y="40" width="100" height="840" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="LmNLP-GIeK6npoBTMpNd-5" vertex="1">
+                    <mxGeometry x="40" y="190" width="10" height="470" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-7" value="LoginController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="160" y="40" width="100" height="840" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="LmNLP-GIeK6npoBTMpNd-7" vertex="1">
+                    <mxGeometry x="40" y="80" width="10" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-8" value="view" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="40" y="40" width="100" height="840" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-10" value="login()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="LmNLP-GIeK6npoBTMpNd-8" target="LmNLP-GIeK6npoBTMpNd-9" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="130" y="125" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-11" value="BP002" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="LmNLP-GIeK6npoBTMpNd-9" target="LmNLP-GIeK6npoBTMpNd-8" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="130" y="195" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-13" value="/auth Post (accountName, password)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="LmNLP-GIeK6npoBTMpNd-8" target="LmNLP-GIeK6npoBTMpNd-12" edge="1">
+                    <mxGeometry x="0.2788" y="5" relative="1" as="geometry">
+                        <mxPoint x="370" y="235" as="sourcePoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-14" value="メニューへリダイレクト" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="LmNLP-GIeK6npoBTMpNd-12" target="LmNLP-GIeK6npoBTMpNd-8" edge="1">
+                    <mxGeometry x="-0.0014" relative="1" as="geometry">
+                        <mxPoint x="370" y="305" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-16" value="UserDetails&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Load&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Account&lt;/span&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ByAccountName&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(String name)&lt;/span&gt;&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="LmNLP-GIeK6npoBTMpNd-5" target="LmNLP-GIeK6npoBTMpNd-15" edge="1">
+                    <mxGeometry x="-0.0033" relative="1" as="geometry">
+                        <mxPoint x="490" y="255" as="sourcePoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-17" value="AccountDetails" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="LmNLP-GIeK6npoBTMpNd-15" target="LmNLP-GIeK6npoBTMpNd-12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="325" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-19" value="AccountSelect&lt;div&gt;ByAcountName&lt;/div&gt;&lt;div&gt;(String name)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="LmNLP-GIeK6npoBTMpNd-4" target="LmNLP-GIeK6npoBTMpNd-18" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="650" y="285" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-20" value="employee_account" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="LmNLP-GIeK6npoBTMpNd-18" target="LmNLP-GIeK6npoBTMpNd-15" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="650" y="355" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-22" value="SQL(SELECT)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" parent="1" source="LmNLP-GIeK6npoBTMpNd-3" target="LmNLP-GIeK6npoBTMpNd-21" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="820" y="305" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-23" value="employee_account" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" parent="1" source="LmNLP-GIeK6npoBTMpNd-21" target="LmNLP-GIeK6npoBTMpNd-3" edge="1">
+                    <mxGeometry x="0.0019" relative="1" as="geometry">
+                        <mxPoint x="820" y="375" as="targetPoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-28" value="認証" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="590" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="490" y="620"/>
+                        </Array>
+                        <mxPoint x="465" y="620" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-29" value="セッション格納" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="460" y="650" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="490" y="680"/>
+                        </Array>
+                        <mxPoint x="465" y="680" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-31" value="menu()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="89.5" y="760" as="sourcePoint"/>
+                        <mxPoint x="209.5" y="760" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-32" value="BP001" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+                    <mxGeometry x="-0.0083" y="10" relative="1" as="geometry">
+                        <mxPoint x="89.5" y="810" as="targetPoint"/>
+                        <mxPoint x="209.5" y="810" as="sourcePoint"/>
+                        <mxPoint x="1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-33" value="view" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="40" y="880" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-34" value="LoginController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="160" y="880" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-35" value="AccountDetails&lt;div&gt;Service&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="570" y="880" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-36" value="SecurityConfig" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="410" y="880" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-37" value="MenuController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="280" y="880" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-38" value="Account&lt;div&gt;Repository&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="710" y="880" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-39" value="AccountDetails" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="850" y="880" width="100" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="LmNLP-GIeK6npoBTMpNd-40" value="AccountDetails" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+                    <mxGeometry x="980" y="880" width="100" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
