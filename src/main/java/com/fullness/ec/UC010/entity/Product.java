@@ -1,8 +1,12 @@
-package com.fullness.ec.UC010.entity;
+package com.fullness.ec.uc010.entity;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class Product {
     private String name;// 商品名
     private Integer price;// 単価

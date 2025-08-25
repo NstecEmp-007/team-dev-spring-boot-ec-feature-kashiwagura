@@ -1,4 +1,4 @@
-package com.fullness.ec.UC010.controller;
+package com.fullness.ec.uc010.controller;
 
 import java.util.List;
 
@@ -14,15 +14,16 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-
-import com.fullness.ec.UC010.entity.ProductCategory;
-import com.fullness.ec.UC010.form.ProductForm;
-import com.fullness.ec.UC010.helper.ProductHelper;
-import com.fullness.ec.UC010.service.ProductService;
+import org.springframework.web.multipart.MultipartFile;
+import com.fullness.ec.uc010.entity.Product;
+import com.fullness.ec.uc010.entity.ProductCategory;
+import com.fullness.ec.uc010.form.ProductForm;
+import com.fullness.ec.uc010.helper.ProductHelper;
+import com.fullness.ec.uc010.service.ProductService;
 
 @Controller
 @RequestMapping("admin/product/add")
-@SessionAttributes("productForm")
+@SessionAttributes({"productForm","categoryList"})
 public class SessionController {
 
     @Autowired
@@ -44,7 +45,7 @@ public class SessionController {
     }
 
     /** 入力画面表示 */
-    @GetMapping("input")
+    @GetMapping
     public String input(Model model) {
         return "view/admin/product/add/input";
     }
@@ -60,6 +61,7 @@ public class SessionController {
         if (category != null) {
             model.addAttribute("categoryName", category.getName());
         }
+        model.addAttribute("imageFileName", form.getImageURL().getOriginalFilename());
 
         return "view/admin/product/add/confirm";
     }
@@ -75,9 +77,9 @@ public class SessionController {
     /** 完了画面表示 */
     @GetMapping("complete")
     public String complete(ProductForm form, SessionStatus status, Model model) {
-        if (!model.containsAttribute("completed")) {
-            return "redirect:/admin/product/add/input";
-        }
+        // if (!model.containsAttribute("completed")) {
+        //     return "redirect:/admin/product/add/input";
+        // }
         model.addAttribute("addProductName", form.getName());
         status.setComplete();
         return "view/admin/product/add/complete";

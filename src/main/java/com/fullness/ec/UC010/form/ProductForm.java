@@ -1,16 +1,23 @@
-package com.fullness.ec.UC010.form;
+package com.fullness.ec.uc010.form;
+
+import org.hibernate.validator.constraints.Length;
+import org.springframework.web.multipart.MultipartFile;
 
 import groovyjarjarantlr4.v4.runtime.misc.NotNull;
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;
+import lombok.AllArgsConstructor;
 //import jakarta.validation.constraints.NotBlank;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class ProductForm implements java.io.Serializable {
     @NotNull
-    @Min(2)
-    @Max(20)
+    @Length(min = 2, max = 20)
+    // @NotBlank
     private String name; // 商品名
     @NotNull
     @Max(1000000)
@@ -20,10 +27,13 @@ public class ProductForm implements java.io.Serializable {
     @Min(0)
     @Max(1000)
     private Integer stock; // 在庫数
+    @NotNull
     private Integer categoryId; // 商品カテゴリID
     @NotNull
-    private String imageURL; // 商品画像URL
+    private MultipartFile imageURL; // 商品画像URL
+    
+   // private String imageFileName; // 商品画像ファイル名
 
-    // Getters and Setters
+    
 
 }

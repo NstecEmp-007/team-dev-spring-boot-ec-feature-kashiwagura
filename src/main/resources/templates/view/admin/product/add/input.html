@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org">
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+      layout:decorate="~{fragments/layout}">
+<div layout:fragment="content">
 <head>
     <meta charset="UTF-8">
     <title>新商品登録（入力）</title>
@@ -12,7 +15,7 @@
 </head>
 <body>
     <h1>新商品登録（入力）</h1>
-    <form th:action="@{/admin/product/confirm}"  th:object="${product}" method ="post" enctype="multipart/form-data">
+    <form th:action="@{/admin/product/add/confirm}"  th:object="${productForm}" method ="post" enctype="multipart/form-data">
        
        <div>
         <label for = "name">商品名</label>：   <input type="text" id ="name" th:field="*{name}" />
@@ -42,8 +45,8 @@
         </div>
            
          <div>
-        <label for = "image">画像</label>：   <input type="file" id ="image" name = "imageFile" />
-        <p th:if="${#fields.hasErrors('image')}" class="error-message"></p>
+        <label for = "image">画像</label>：   <input type="file" id ="image" name = "imageURL" />
+        <p th:if="${#fields.hasErrors('imageURL')}" class="error-message"></p>
         </div>
         
         <div>
@@ -53,4 +56,5 @@
     </form>
 
 </body>
+</div>
 </html>

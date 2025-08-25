@@ -1,10 +1,10 @@
-package com.fullness.ec.UC010.repository;
+package com.fullness.ec.uc010.repository;
 
 import java.util.List;
 
 import org.apache.ibatis.annotations.Mapper;
 
-import com.fullness.ec.UC010.entity.ProductCategory;
+import com.fullness.ec.uc010.entity.ProductCategory;
 
 /**
  * 商品カテゴリテーブルをアクセスするリポジトリインターフェース

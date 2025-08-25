@@ -1,13 +1,14 @@
-package com.fullness.ec.UC010.service;
+package com.fullness.ec.uc010.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.fullness.ec.UC010.entity.Product;
-import com.fullness.ec.UC010.entity.ProductCategory;
-import com.fullness.ec.UC010.repository.ProductCategoryRepository;
-import com.fullness.ec.UC010.repository.ProductRepository;
+
+import com.fullness.ec.uc010.entity.Product;
+import com.fullness.ec.uc010.entity.ProductCategory;
+import com.fullness.ec.uc010.repository.ProductCategoryRepository;
+import com.fullness.ec.uc010.repository.ProductRepository;
 
 @Service // インスタンス生成対象で、内部処理
 public class ProductServiceImpl implements ProductService {
