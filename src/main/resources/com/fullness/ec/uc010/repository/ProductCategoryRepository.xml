@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.fullness.ec.uc010.repository.ProductCategoryRepository">
-    <select id="selectAll" resultType="ProductCategory">
+    <select id="selectAll" resultType="com.fullness.ec.uc010.entity.ProductCategory">
         SELECT id , name
         FROM product_category
     </select>

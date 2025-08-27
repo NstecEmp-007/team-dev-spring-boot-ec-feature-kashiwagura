@@ -1,7 +1,9 @@
 package com.fullness.ec.uc010.controller;
 
+import java.io.IOException;
 import java.util.List;
 
+import org.codehaus.groovy.tools.shell.IO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -52,7 +54,8 @@ public class SessionController {
 
     /** 確認画面表示 */
     @PostMapping("confirm")
-    public String confirm(@Validated ProductForm form, BindingResult result, Model model) {
+    public String confirm(@Validated ProductForm form, BindingResult result, Model model) 
+    throws IOException {
         if (result.hasErrors()) {
             return "view/admin/product/add/input";
         }
@@ -61,6 +64,8 @@ public class SessionController {
         if (category != null) {
             model.addAttribute("categoryName", category.getName());
         }
+        byte[] fileBytes = form.getImageURL().getBytes();
+        String url = productHelper.uploadFile(form.getImageURL().getOriginalFilename(),fileBytes);
         model.addAttribute("imageFileName", form.getImageURL().getOriginalFilename());
 
         return "view/admin/product/add/confirm";

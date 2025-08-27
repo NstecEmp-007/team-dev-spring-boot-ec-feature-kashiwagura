@@ -15,14 +15,14 @@
             <p>単価:<span th:text="${productForm.price}"></span>円</p>
             <p>在庫数:<span th:text="${productForm.stock}"></span></p>
             <p>商品カテゴリ:<span th:text="${categoryName}"></span></p>
-            <p>画像</p><img th:src="@{${imageFileName}}" alt="商品画像" style="max-width: 200px; max-height: 200px;" />
+            <p>画像</p><img th:src="@{'/images/'+ ${imageFileName}}" alt="商品画像" style="max-width: 200px; max-height: 200px;" />
         </div>
 
 
           <div>
         <button type="submit" name="completeButton" >完了</button>
         <button type="button" onclick="history.back()">戻る</button>
-         <button type="button" onclick="window.location.href='admin/products/add'">キャンセル</button>
+         <button type="button" onclick="window.location.href='#'">キャンセル</button>
         </div>
     </form>
     </body>

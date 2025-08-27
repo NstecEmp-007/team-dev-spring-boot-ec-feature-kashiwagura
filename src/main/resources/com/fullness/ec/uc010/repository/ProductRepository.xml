@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.fullness.ec.uc010.repository.ProductRepository">
-    <insert id="insert" parameterType="Product">
-        INSERT INTO product (name, price, quantity AS stock, image AS imageURL, category_id AS categoryId)
-        VALUES (#{name}, #{price}, #{stock}, #{image}, #{categoryId})
+    <insert id="insert" parameterType="com.fullness.ec.uc010.entity.Product">
+        INSERT INTO product (name, price, quantity AS stock, image_url AS imageURL, product_category_id AS categoryId,delete_flag)
+        VALUES (#{name}, #{price}, #{stock}, #{imageURL}, #{categoryId},default);
     </insert>
     </mapper>
     
